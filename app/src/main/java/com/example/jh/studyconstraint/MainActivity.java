@@ -39,6 +39,23 @@ import android.widget.Button;
  * app:layout_constraintStart_toStartOf
  * 这个就是说 Button 的左边与 ImageView 的左边是对齐的
  * 不知道为什么上面已经出的属性能够满足布局需要了，为什么还要再出 start 和 end 的。
+ *
+ * 2017/7/21 深入约束布局
+ * 见 activity_third/four
+ *
+ * 1、转换成约束性布局的菜单选项
+ * 在Android Studio中打开所要编辑的布局，并点击窗口下方的tab页Design
+ * 在Component Tree窗口中，在布局上点击鼠标右键并选择Convert layout to ConstraintLayout
+ *
+ * 2、创建一个新的约束性布局
+ * 1.创建一个新的约束性布局的步骤如下：
+ * 在项目窗口的任何位置点击鼠标，然后选择File->New->XML->Layout XML.
+ * 2.在root tag中输入"android.support.constraint.ConstraintLayout"
+ * 3.点击Finish
+ * 注：在root tag中输入
+
+
+ *
  */
 public class MainActivity extends AppCompatActivity {
 
